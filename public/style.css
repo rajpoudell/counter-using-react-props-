@@ -1,4 +1,51 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(65, 116, 116, 0.569);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 30px; */
+}
+.minus , .add{
+    padding: 10px;
+    background-color: transparent;
+    transition: 0.2s;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: grey;
+    border: none;
+    
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.count{
+    transition: 0.2s;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    transition: 0.1s;
+    cursor: pointer;
+    margin: 10px;
+    height: 12px;
+    border-radius: 10px;
+    background-color: grey;
+    
+}
+
+
+.common:hover{
+ 
+
+    background-color:transparent;
 }
