@@ -1,10 +1,12 @@
 
 import React from 'react';
 // import '../public/style.';
-
+import Main from "./Main"
 function App() {
   return(
-    <h1>hello </h1>
+    <>
+    <Main />
+    </>
   )
 
 }
