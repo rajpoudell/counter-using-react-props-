@@ -16,7 +16,7 @@ function substract(){
   return (
     <div className="main">
       <button className="minus common" onClick={substract}>-</button>
-      <div className="count common">{count}</div>
+      <div className="count">{count}</div>
       <button className="add common" onClick={add}>+</button>
     </div>
   );
